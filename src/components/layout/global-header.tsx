@@ -51,14 +51,13 @@ export function GlobalHeader() {
 								className='flex items-center'
 							>
 								<SidebarTrigger className="h-8 w-8 text-text-primary rounded-md hover:bg-orange-50/40 transition-colors duration-200" />
-								<img
+							<img
     src="/Asset-233@4x.png"
     alt="Expndy"
-    className="flex-shrink-0 mx-auto transition-all duration-300"
+    className="flex-shrink-0 mx-auto transition-all duration-300 ml-2"
     style={{
-        width: '28px',
-        height: '28px',
-        marginLeft: '8px',
+        height: '24px', // Keep the height consistent with the header
+        width: 'auto'   // Let the width adjust automatically to stay proportional
     }}
 />
 
